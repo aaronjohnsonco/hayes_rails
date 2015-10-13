@@ -37,6 +37,11 @@ set :repo_url, 'https://aaronjohnsonco:h0lein0ne@github.com/aaronjohnsonco/hayes
 
 set :deploy_to, '/home/deploy/hayes'
 
+set :log_level, :debug
+
+# Default value for :pty is false
+set :pty, true
+
 #set :linked_files, %w{config/database.yml}
 #set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 
