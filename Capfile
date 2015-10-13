@@ -29,7 +29,7 @@ require 'capistrano/rails/migrations'
 
 # If you are using rbenv add these lines:
 set :rbenv_type, :user # or :system, depends on your rbenv setup
-set :rbenv_ruby, '2.2.0-p0'
+set :rbenv_ruby, '2.2.0'
 
 
 # Loads custom tasks from `lib/capistrano/tasks' if you have any defined.

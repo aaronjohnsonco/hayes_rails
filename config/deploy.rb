@@ -33,7 +33,7 @@ lock '3.1.0'
 # set :keep_releases, 5
 
 set :application, 'hayes'
-set :repo_url, 'git@github.com:aaronjohnsonco/hayes_rails.git'
+set :repo_url, 'https://aaronjohnsonco:h0lein0ne@github.com/aaronjohnsonco/hayes_rails.git'
 
 set :deploy_to, '/home/deploy/hayes'
 
