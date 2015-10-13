@@ -28,7 +28,7 @@
 .secondary-text { font-size:1.3em;line-height:1.7;padding:0 30px; }
 .contact-text { font-size:1.2em;line-height:1.5em; padding:0 30px;color:#fff; }
 
-.callout-container { padding:300px 0 300px 0;background:url('/assets/physiciansRegionalBig.jpg') no-repeat center center;-webkit-background-size: cover;
+.callout-container { padding:300px 0 300px 0;background:asset_url('physiciansRegionalBig.jpg') no-repeat center center;-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
