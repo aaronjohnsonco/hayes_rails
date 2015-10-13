@@ -39,6 +39,11 @@ set :deploy_to, '/home/deploy/hayes'
 
 set :log_level, :debug
 
+set :deploy_via, :remote_cache
+
+set :assets_roles, [:web, :app]
+
+set :bundle_flags,    ""
 # Default value for :pty is false
 set :pty, true
 
