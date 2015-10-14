@@ -22,4 +22,8 @@ jQuery(function() {
     $('body').animate({scrollTop: $('#top').offset().top}, 1500);
     return false;
   });
+  $('#learn').click(function() {
+    $('body').animate({scrollTop: $('#how').offset().top}, 1500);
+    return false;
+  });
 });
